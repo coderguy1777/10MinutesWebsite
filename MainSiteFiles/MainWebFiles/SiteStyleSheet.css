@@ -1,5 +1,18 @@
 p.small {
     line-height: 0.02;
+    text-align: center;
+    margin-top: -10px;
+}
+p3.small {
+    font-family: Arimo;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+    text-align: center;
+    line-height: 0.02;
+    margin-top: -30px;
 }
 h1 {
     font-family: Arimo;
@@ -16,14 +29,18 @@ h2 {
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
+    text-align: center;
+    margin-top: -40px;
 }
 h3 {
     font-family: Arimo;
-    font-size: 14px;
+    font-size: 24px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    line-height: 15.4px;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: -35px;
 }
 p {
     font-family: Arimo;
@@ -32,6 +49,7 @@ p {
     font-variant: normal;
     font-weight: 400;
     line-height: 20px;
+    margin-top: -15px;
 }
 blockquote {
     font-family: Arimo;
@@ -49,16 +67,8 @@ pre {
     font-weight: 400;
     line-height: 18.5714px;
 }
-ul {
-    font-family: Arimo;
-    font-size: 13px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 18.5714px;
-}
 div.container1 {
-    height: 10em;
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: center
@@ -66,5 +76,16 @@ div.container1 {
 div.container1 p {
     margin: 0
 }
-
+div container2 {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+div container2 p3 {
+    margin: 0
+}
+hr {
+    width: 1px;
+}
 
