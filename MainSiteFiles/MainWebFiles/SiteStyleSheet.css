@@ -33,7 +33,7 @@ p.smallll {
     text-align: center;
 }
 h1 {
-    font-family: Arimo;
+    font-family: "Didact Gothic", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
@@ -44,7 +44,7 @@ body {
     margin: 0;
 }
 h2 {
-    font-family: Arimo;
+    font-family: "Didact Gothic", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
@@ -54,7 +54,7 @@ h2 {
     margin-top: -10px;
 }
 h3 {
-    font-family: Arimo;
+    font-family: "Didact Gothic", serif;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
@@ -67,22 +67,15 @@ p.exp {
     max-width: 150px;
 }
 p {
-    font-family: Arimo;
+    font-family: "Didact Gothic", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
+    word-wrap: break-word;
     font-weight: 400;
     line-height: 20px;
     margin-top: -15px;
     text-align: center;
-}
-blockquote {
-    font-family: Arimo;
-    font-size: 21px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 30px;
 }
 pre {
     font-family: Arimo;
@@ -101,7 +94,15 @@ div.container1 {
 div.container1 p {
     margin: 0
 }
-
+div container2 {
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+div container2 p3 {
+    margin: 0
+}
 hr {
     margin-top: -15px;
     align-self: center;
@@ -109,7 +110,7 @@ hr {
 }
 
 .hr2 {
-    margin-top: -15px;
+    margin-top: -10px;
     align-self: center;
     position: center;
     max-width: 175px;
@@ -121,41 +122,44 @@ hr {
     max-width: 290px;
 }
 .button {
-    text-shadow: 0 0 2px rgba(0,0,0,.3);
-    display: inline-block;
-    margin-left: 250px;
-    margin-right: 500px;
-    background-color: #ba5c50;
-    -webkit-text-fill-color: #3333;
-    padding: 8px 16px;;
-    margin-top: 50px;
+    text-shadow: 0 0 2px rgba(68, 170, 187, 0.73);
+    margin-left: 230px;
+    margin-right: 20px;
+    background-color: #4ABDAC;
+    padding: 20px 36px ;;
+    margin-top: 20px;
     font-family: Didact Gothic, serif;
     font-size: 20px;
     align-content: center;
     max-height: 90px;
-    position: absolute;
     max-width: 900px;
-}
-
-.container2 {
-    margin: 0;
-    background-color: #EA3D33;
-    width: 100%;
-    display: flex;
-    flex-grow: 1;
+    border-radius: 20px;
+    border-color: #4ABDAC;
+    border-style: solid;
 }
 
 .button2 {
-    text-shadow: 0 0 2px rgba(0,0,0,.3);
-    margin-left: 450px;
-    margin-right: -600px;
-    margin-top: 50px;
-    background-color: #ba5c50;
-    -webkit-text-fill-color: #3333;
-    padding: 8px 16px;;
+    text-shadow: 0 0 2px rgba(68, 170, 187, 0.73);
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #4ABDAC;
+    padding: 20px 36px;;
+    border-radius: 20px;
     font-family: Didact Gothic, serif;
     font-size: 20px;
-    max-height: 100px;
-    max-width: 2000px;
-    position: relative;
+    max-height: 90px;
+    max-width: 900px;
+    border-color: #4ABDAC;
+    border-style: solid;
 }
+
+.cover-container {
+    background-image: linear-gradient(to right, #92aafe, #c4e2d1);
+}
+
+.cover {
+    margin-top: 0rem;
+    margin-bottom: 10rem;
+}
+
