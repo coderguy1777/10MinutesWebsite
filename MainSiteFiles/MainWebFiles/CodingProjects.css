@@ -1,15 +1,39 @@
-p {
-    text-align: center;
+body {
+    background-color: #05ba2c;
+    font-family: Dingbats, serif;
+    -webkit-text-fill-color: #1f546e;
 }
+
 h4 {
-    text-align: center;
+    font-family: "Didact Gothic", serif
 }
+
+.p1 {
+    font-family: "Didact Gothic", serif;
+    font-size: 15px;
+}
+
+.p2 {
+    font-family: "Didact Gothic", serif;
+    font-size: 15px;
+}
+
+.p3 {
+    font-family: "Didact Gothic", serif;
+    font-size: 15px;
+}
+
 h5 {
-    text-align: center;
+    font-family: "Didact Gothic", serif;
+    font-size: 20px;
 }
+
 h6 {
-    text-align: center;
+    font-family: "Didact Gothic", serif;
+    font-size: 20px;
 }
-h8 {
-    margin-left: 910px;
+
+h7 {
+    font-family: "Didact Gothic", serif;
+    font-size: 20px;
 }

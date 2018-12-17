@@ -1,0 +1,17 @@
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Didact Gothic", serif;
+}
+
+hr {
+    max-width: 200px;
+    align-content: center;
+}
+
+.p12 {
+    font-family: "Didact Gothic", serif;
+    font-size: 14px;
+    text-align: center;
+}
