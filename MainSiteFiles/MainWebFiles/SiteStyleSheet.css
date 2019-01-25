@@ -193,3 +193,10 @@ hr {
     margin-top: 0rem;
     margin-bottom: 10rem;
 }
+
+.bottom-margin {
+    background-color: #33a1b9;
+    max-height: 50px;
+    max-width: 900px;
+    border-radius: 20px;
+}
