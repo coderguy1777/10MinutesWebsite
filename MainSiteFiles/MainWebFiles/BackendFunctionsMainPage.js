@@ -1,6 +1,14 @@
-function ButtonSelector(x, y) {
-    var2 = 0;
-    var3 = 0;
-    console.log(var2);
-    console.log(var3);
+function devupdates() {
+    window.open('DevelopmentUpdates.html', '_self', false);
+}
+function onClick(url) {
+    var win = window.open(url, '_blank');
+}
+
+function animationprojects() {
+    window.open('AnimationProjects.html', '_self', false);
+}
+
+function codeupdates() {
+    window.open('CodingProjectsArea.html', '_self', false);
 }

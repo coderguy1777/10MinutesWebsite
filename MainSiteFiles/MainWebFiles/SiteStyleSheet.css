@@ -4,34 +4,10 @@ p.small {
     margin-top: -10px;
     outline-width: 1cm;
     width: 1910px;
+    display: block;
     word-wrap: break-word;
 }
-p.smalll {
-    font-family: Arimo;
-    line-height: 0.02;
-    margin-top: -10px;
-    text-align-all: center;
-}
-p3.small {
-    font-family: Arimo;
-    font-size: 13px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 18.5714px;
-    text-align: center;
-    line-height: 0.02;
-    margin-top: -30px;
-}
-p.smallll {
-    font-family: Arimo;
-    font-size: 13px;
-    width: 70%;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    text-align: center;
-}
+
 h1 {
     font-family: "Didact Gothic", sans-serif;
     font-size: 24px;
@@ -40,9 +16,11 @@ h1 {
     font-weight: 700;
     line-height: 26.4px;
 }
+
 body {
     margin: 0;
 }
+
 h2 {
     font-family: "Didact Gothic", sans-serif;
     font-size: 24px;
@@ -53,6 +31,7 @@ h2 {
     text-align: center;
     margin-top: -10px;
 }
+
 h3 {
     font-family: "Didact Gothic", serif;
     font-size: 24px;
@@ -63,9 +42,11 @@ h3 {
     text-align: center;
     margin-top: -5px;
 }
+
 p.exp {
     max-width: 150px;
 }
+
 p {
     font-family: "Didact Gothic", sans-serif;
     font-size: 14px;
@@ -77,6 +58,7 @@ p {
     margin-top: -15px;
     text-align: center;
 }
+
 pre {
     font-family: Arimo;
     font-size: 13px;
@@ -85,24 +67,29 @@ pre {
     font-weight: 400;
     line-height: 18.5714px;
 }
+
 div.container1 {
     height: 5em;
     display: flex;
     align-items: center;
     justify-content: center
 }
+
 div.container1 p {
     margin: 0
 }
+
 div container2 {
     height: 40em;
     display: flex;
     align-items: center;
     justify-content: center
 }
+
 div container2 p3 {
     margin: 0
 }
+
 hr {
     margin-top: -15px;
     align-self: center;
@@ -121,6 +108,7 @@ hr {
     align-self: center;
     max-width: 290px;
 }
+
 .button {
     text-shadow: 0 0 2px rgba(68, 170, 187, 0.73);
     margin-left: 230px;
@@ -199,4 +187,16 @@ hr {
     max-height: 50px;
     max-width: 900px;
     border-radius: 20px;
+}
+
+.container4-cover {
+    margin: 0;
+    padding: 0;
+}
+
+.container4 {
+    width: fit-content;
+    height: fit-content;
+    word-break: break-all;
+    background-color: #c4e2d1;
 }
