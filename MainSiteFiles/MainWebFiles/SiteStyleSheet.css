@@ -79,17 +79,6 @@ div.container1 p {
     margin: 0
 }
 
-div container2 {
-    height: 40em;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-div container2 p3 {
-    margin: 0
-}
-
 hr {
     margin-top: -15px;
     align-self: center;
@@ -199,4 +188,15 @@ hr {
     height: fit-content;
     word-break: break-all;
     background-color: #c4e2d1;
+}
+
+.container5 {
+    width: 30rem;
+    height: auto;
+    display: inline-block;
+    background-color: #33a1b9;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin-left: 49.60em;
 }

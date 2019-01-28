@@ -1,5 +1,5 @@
 body {
-    background-color: #05ba2c;
+    background-color: #32bab1;
     font-family: Dingbats, serif;
     -webkit-text-fill-color: #1f546e;
 }
@@ -13,17 +13,27 @@ h4 {
 
 .p1 {
     font-family: "Didact Gothic", serif;
-    text-align: center;
+    display: block;
     font-size: 15px;
+    margin: 10px;
+    text-align: justify;
 }
 
 .p2 {
+    font-family: "Didact Gothic", serif;
+    text-align: justify;
+    margin: 10px;
+    display: block;
+    font-size: 15px;
+}
+
+.p3 {
     font-family: "Didact Gothic", serif;
     text-align: center;
     font-size: 15px;
 }
 
-.p3 {
+.p4 {
     font-family: "Didact Gothic", serif;
     text-align: center;
     font-size: 15px;
@@ -58,4 +68,30 @@ hr {
     background-color: #6e0c5c;
     border-radius: 25px;
     border-color: black;
+}
+
+.container1 {
+    width: 20rem;
+    height: auto;
+    background-color: #cd4346;
+    justify-items: center;
+    margin-left: 49.50em;
+    position: relative;
+    border-radius: 2px;
+}
+
+.container2 {
+    width: 30rem;
+    height: auto;
+    background-color: #cd4346;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 45em;
+    position: relative;
+    border-radius: 2px;
+}
+
+.container-cover {
+    margin: 0;
+    padding: 0;
 }
