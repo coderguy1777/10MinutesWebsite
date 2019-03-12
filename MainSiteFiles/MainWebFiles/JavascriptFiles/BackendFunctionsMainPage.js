@@ -9,6 +9,10 @@ function animationprojects() {
     window.open('AnimationProjects.html', '_self', false);
 }
 
+function openotherfile() {
+    window.open('OtherFile.html', '_self', false);
+}
+
 function codeupdates() {
     window.open('CodingProjectsArea.html', '_self', false);
 }

@@ -7,8 +7,9 @@ body {
 h4 {
     font-family: "Didact Gothic", serif;
     max-width: 130px;
-    margin-left: 585px;
     align-content: center;
+    margin: 0;
+    text-align: center;
 }
 
 .p1 {
@@ -29,37 +30,49 @@ h4 {
 
 .p3 {
     font-family: "Didact Gothic", serif;
-    text-align: center;
     font-size: 15px;
+    display: block;
+    margin: 10px;
+    text-align: justify;
 }
 
 .p4 {
     font-family: "Didact Gothic", serif;
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
+    display: block;
+    margin: 10px;
 }
 
 h5 {
     font-family: "Didact Gothic", serif;
-    margin-left: 420px;
-    font-size: 20px;
+    max-width: 190px;
+    align-content: center;
+    margin: 0;
+    text-align: center;
 }
 
 h6 {
     font-family: "Didact Gothic", serif;
+    max-width: 150px;
     align-content: center;
-    margin-left: 585px;
-    font-size: 20px;
+    margin: 0;
+    text-align: center;
 }
 
 h7 {
     font-family: "Didact Gothic", serif;
-    font-size: 20px;
-    margin-left: 585px;
+    max-width: 120px;
+    align-content: center;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
 
 hr {
     max-width: 140px;
+    justify-content: center;
 }
 
 .sidebar {
@@ -94,4 +107,81 @@ hr {
 .container-cover {
     margin: 0;
     padding: 0;
+}
+
+.container9 {
+    justify-items: center;
+    display: block;
+    background-color: #cd4346;
+    width: 5em;
+    height: auto;
+    text-align: center;
+    margin-left: 56.50em;
+    border-radius: 2px;
+    justify-content: center;
+    position: relative;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.container10 {
+    justify-items: center;
+    width: 30rem;
+    height: auto;
+    margin-left: 45em;
+    border-radius: 2px;
+    background-color: #cd4346;
+}
+
+.container11 {
+    justify-items: center;
+    width: 30rem;
+    height: auto;
+    margin-left: 45em;
+    border-radius: 2px;
+    background-color: #cd4346;
+}
+
+.container12 {
+    justify-items: center;
+    display: block;
+    background-color: #cd4346;
+    width: 7em;
+    text-align: center;
+    text-justify: center;
+    height: auto;
+    margin-left: 55.55em;
+    border-radius: 2px;
+    justify-content: center;
+    position: relative;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.container13 {
+    justify-items: center;
+    display: block;
+    background-color: #cd4346;
+    width: 5em;
+    text-align: center;
+    text-justify: center;
+    height: auto;
+    margin-left: 56.50em;
+    border-radius: 2px;
+    justify-content: center;
+    position: relative;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.container14 {
+    justify-items: center;
+    display: block;
+    background-color: #cd4346;
+    width: 5em;
+    text-align: center;
+    text-justify: center;
+    height: auto;
+    margin-left: 56.50em;
+    border-radius: 2px;
+    justify-content: center;
+    position: relative;
+    font-family: "Didact Gothic", sans-serif;
 }
